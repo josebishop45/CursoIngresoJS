@@ -1,6 +1,14 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'mostrar'.
 function mostrar()
 {
-	alert("ok");
+	alert("Esto funciona de maravilla");
+
+
+	prompt("Ingrese un dato");
+	var dato;
+	
+	dato =prompt("Ingrese un dato
+	")
+	
 }
 
