@@ -10,11 +10,12 @@ function SacarResto()
     var resultado;
 
     dividendo = document.getElementById("numeroDividendo").value;
-    divisor = document.getElementById("numeroDivisor").value;
-    
     dividendo = parseInt(dividendo);
 
+    divisor = document.getElementById("numeroDivisor").value;
     divisor = parseInt(divisor);
+
+
     
     resultado = dividendo % divisor;
 

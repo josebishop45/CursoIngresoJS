@@ -10,15 +10,19 @@ function mostrarAumento()
     var total;
 
     sueldo = document.getElementById("sueldo").value;
-    resultado = document.getElementById("resultado").value;
-
     sueldo = parseInt(sueldo);
-    resultado = parseInt(resultado);
 
-    total = 
+    resultado = document.getElementById("Resultado")
+    resultado = parseInt(resultado)
+
+    
+
+    
+
+    
+
+    
 
 
-
-
-	
+    
 }
