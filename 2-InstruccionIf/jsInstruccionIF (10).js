@@ -9,13 +9,13 @@ function mostrar()
 
 notaRandom = Math.floor (Math.random() * (numMax - numMin)) + numMin;
 console.log(notaRandom);
-if (notaRandom >= 9) {
+if (notaRandom > 8) {
 	alert("Excelente " + notaRandom);
 	} else {
 		if (notaRandom > 4) {
-			alert("aprobo");
+			alert("aprobo "+notaRandom);
 		} else {
-
+			alert("Vamos, la proxima se puede "+notaRandom);
 		}
 
 
@@ -26,3 +26,4 @@ if (notaRandom >= 9) {
 	
 
 }//FIN DE LA FUNCIÓN
+//w3s random 
