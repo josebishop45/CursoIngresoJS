@@ -16,7 +16,7 @@ function sumar()
     
     resultado = numeroUno + numeroDos;
 
-    alert("la suma es " + resultado);
+    alert("La suma es " + resultado);
 
 
 }

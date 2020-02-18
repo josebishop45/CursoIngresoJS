@@ -12,10 +12,12 @@ function mostrarAumento()
 
     importe = parseInt(importe);
 
-    descuento = importe % 25;
+    descuento = importe *0.25;
 
-    importeTotal = importe + descuento;
+    importeTotal = importe - descuento;
+    
+    document.getElementById("resultado").value=importeTotal;
 
-    document.getElementById("resultado").value = importeTotal;    
+    console.log(importeTotal);    
 	
 }

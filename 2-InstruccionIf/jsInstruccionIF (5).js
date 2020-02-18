@@ -11,6 +11,4 @@ if (edad>17 || edad<13 ) {
 
 }//FIN DE LA FUNCIÓN
 /* difentes maneras de resolver el ejercicio
-uso el else 
-if(edad<18 && edad>12)
-FALTAN APUNTES*/
+uso el else */

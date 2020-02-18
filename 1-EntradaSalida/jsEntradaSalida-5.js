@@ -14,7 +14,7 @@ function mostrar()
   // console.log(nombre, edad);
 
 
-  alert("usted se llama "  + nombre + " y tiene " + edad +  " años");
+  alert("Usted se llama "  + nombre + " y tiene " + edad +  " años");
 
 
 
