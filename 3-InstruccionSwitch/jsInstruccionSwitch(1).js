@@ -5,16 +5,16 @@ var mesDelAño
 mesDelAño = document.getElementById('mes').value;
 switch (mesDelAño) {
     case "Enero":
-    alert("que comiencen las clases!!");
+    alert("Que comiencen las clases!!");
     break;
     case "Marzo":      
-    alert("a clases");
+    alert("A clases!!!");
     break;
     case "Julio":
-    alert("se vienen las vacaciones");
+    alert("Se vienen las vacaciones!!!");
     break;
     case "Diciembre":
-    alert("Felices fiestas");
+    alert("Felices fiestas!!!");
     break;   
     
     
