@@ -4,13 +4,14 @@ function mostrar()
 var clave = prompt("ingrese el número clave.");
 var contador=0;
 clave=clave.toLocaleLowerCase();
-    while(clave!="utn750") {
+    while(clave!="utn750") 
+    {
        contador++;
        if(contador==3) {
         break;
        }
         clave = prompt("Error, reingrese su clave!");
-        clave=clave.toLocaleLowerCase()
+        //clave=clave.toLocaleLowerCase()
     }
     if(clave == "utn750"){
         alert("Bienvenido");

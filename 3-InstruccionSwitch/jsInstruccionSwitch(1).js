@@ -20,6 +20,10 @@ switch (mesDelAño) {
     
 }
 }
+//no poner llaves en switch
+// no se pone ";" se pone ":"
+//siempre cerrar con "break;"
+
 
 
 

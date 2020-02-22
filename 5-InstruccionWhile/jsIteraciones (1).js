@@ -24,7 +24,7 @@ si sigue siendo verdadera, vuelve a iterarse
  una otra forma es 
 contador += 1
 otra forma es
-contador++
+contador++(usar esta)
 ++contador 
 acumulador es una variable mas otra variable
 */

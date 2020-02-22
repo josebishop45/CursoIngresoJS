@@ -21,7 +21,7 @@ function mostrar()
 		
 	}
 		document.getElementById('suma').value=acumulador;
-		document.getElementById('promedio').value=acumulador/contador;
+		document.getElementById('promedio').value=acumulador/contador; //calculando el promedio    
 }
 
 //FIN DE LA FUNCIÓN
