@@ -7,7 +7,7 @@ function mostrar()
 	var primeraVez=true;//la bandera sirve para saber si es la primera vez q ingreso
 
 	
-// declarar variables
+	// declarar variables
 	
 	var respuesta=true;
 
@@ -20,24 +20,27 @@ function mostrar()
 			numero=prompt("Ingrese un numero");
 			numero=parseInt(numero);
 			if(primeraVez)
-			{
-				primeraVez=false;
+				{
+					primeraVez=false;
 
-				numMax=numero;
-				numMin=numero;
-			}
-			else {
-			
-				if(numero>numMax) {					//ORDENAR LOS CODIGOS PARA MAS FACIL LECTURA  
-				numMax=numero;
-			} if(numero<numMin) {
-				numMin=numero;
-			}
+					numMax=numero;
+					numMin=numero;
+				}else 
+					{
+		
+						if(numero>numMax) 
+						{					//ORDENAR LOS CODIGOS PARA MAS FACIL LECTURA  
+							numMax=numero;
+
+						}if(numero<numMin)
+						{
+							numMin=numero;
+						}	
+					}		
 		}
-	}
 
-	document.getElementById("maximo").value=numMax;//se le asigna a este componente el valor del maximo
-	document.getElementById("minimo").value=numMin;//se le asigna a este componente el valor del minimo 
+		document.getElementById("maximo").value=numMax;//se le asigna a este componente el valor del maximo
+		document.getElementById("minimo").value=numMin;//se le asigna a este componente el valor del minimo 
 
 		respuesta=confirm("Desea continuar?");
 	}

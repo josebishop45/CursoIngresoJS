@@ -61,7 +61,7 @@ function PrecioFinal ()
     tercerPrecio = document.getElementById("PrecioTres").value;
     tercerPrecio = parseInt(tercerPrecio);
 
-    resultado = primerPrecio + segundoPrecio + tercerPrecio;
+    resultado = (primerPrecio + segundoPrecio + tercerPrecio)*1.21;
 
     alert("el precio final es " + resultado);
 	
