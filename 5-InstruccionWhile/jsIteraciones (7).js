@@ -5,7 +5,7 @@ function mostrar()
 	var acumulador=0;
 	var respuesta=true;
 
-	while(respuesta== true) {
+	while(respuesta) {
 	
 		var numero= NaN;
 		
