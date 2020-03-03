@@ -3,8 +3,8 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var respuesta=true;
-
+	var respuesta;
+	respuesta=true;
 	while(respuesta) {
 	
 		var numero= NaN;
@@ -21,7 +21,7 @@ function mostrar()
 	respuesta=confirm("Desea continuar?");
 			
 		
-		
+		console.log(numero);
 		
 	}
 

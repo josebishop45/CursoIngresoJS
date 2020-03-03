@@ -34,7 +34,7 @@ function mostrar()
             // par
             contadorPares++;
         }
-        else {
+        else if (numero!=0) {
             // impar
             contadorImpares++;
         }
@@ -83,4 +83,16 @@ function mostrar()
 
 
 
+}
+/* if (primera vez){
+    primeraVez=false;
+    numeromaximo= numero
+    numerominimo=numero
+    letramax=letra
+    letraMin=letra
+
+} else {
+    if(numero>numeroMax){
+        numeromax=numero
+    }
 }

@@ -7,7 +7,7 @@ function mostrar()
 	
 	var respuesta= true;
 
-	while(respuesta==true) {
+	while(respuesta) {
 		var numero=NaN;
 
 		while(isNaN(numero)) {

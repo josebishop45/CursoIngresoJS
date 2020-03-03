@@ -16,7 +16,7 @@ function mostrar()
 	var diferencia;
 	//declarar contadores y variables 
 	
-	var respuesta="true";
+	var respuesta=true;
 
 	do { 
 		do {

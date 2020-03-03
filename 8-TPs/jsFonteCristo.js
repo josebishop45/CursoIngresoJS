@@ -10,7 +10,7 @@ e.	Se pedirán un número positivo y se mostrará la cantidad de números Primos
     var numero;
 function ComenzarIngreso () 
 {
-    
+    numero=document.getElementById("numero").value;
     
 
  	

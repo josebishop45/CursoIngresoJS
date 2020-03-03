@@ -8,6 +8,6 @@ function mostrar()
 		console.log(numero);
 		console.log(isNaN(numero));
 	}
-
+document.getElementById("Numero").value=numero;
 
 }//FIN DE LA FUNCIÓN
